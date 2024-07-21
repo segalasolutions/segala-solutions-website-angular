@@ -1,1 +1,0 @@
-# segala-solutions-website-angular
