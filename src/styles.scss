@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  opacity: 0; 
+  animation: fadeIn 2s ease-in-out forwards; 
+  font-family: 'Quicksand', serif;
+  overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  min-height: 100px;
+    position: relative;
+    background: #062333;
+    color: #fff;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+ footer-logo {
+  max-width: 350px;
+}
